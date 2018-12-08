@@ -2,6 +2,7 @@
 - DynaTime is Countdown Timer based on Hourglass library which has a Pause, Resume features,
 the main differences of this library are stopping the loop of timer when finished and all the functions written in single abstract class.
 
+![dynatime](https://user-images.githubusercontent.com/28802529/49686942-e2ff7b80-fb36-11e8-9115-d786e8fa8df2.gif)
 
 # Instructions
 Add this to your build.gradle
