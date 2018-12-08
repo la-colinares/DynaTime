@@ -61,6 +61,6 @@ Here is an example:
 ## Developer
 - [Lowi Adrian Colinares](https://github.com/la-colinares)
 
-## Licensed
+## License
 - This project is licensed under MIT License, - see the [LICENSE](https://github.com/la-colinares/DynaTime/blob/master/LICENSE) file for details
 
