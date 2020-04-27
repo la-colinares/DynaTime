@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DynaTime.iml" filepath="$PROJECT_DIR$/DynaTime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dynatime/dynatime.iml" filepath="$PROJECT_DIR$/dynatime/dynatime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynaTime.iml" filepath="$PROJECT_DIR$/DynaTime.iml" group="DynaTime" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DynaTime/app" />
+      <module fileurl="file://$PROJECT_DIR$/dynatime/dynatime.iml" filepath="$PROJECT_DIR$/dynatime/dynatime.iml" group="DynaTime/dynatime" />
     </modules>
   </component>
 </project>

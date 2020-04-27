@@ -1,11 +1,16 @@
-package com.lacolinares.dynatime;
+package com.lacolinares.sample;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.lacolinares.dynatime.DynaTime;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -73,32 +78,41 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void showMessage(String message) {
+        Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+    }
+
     private void setButtonOnClickListener() {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int timeInMillis = Integer.valueOf(txtTimeMillis.getText().toString());
-                int interval = Integer.valueOf(txtInterval.getText().toString());
+                int timeInMillis = Integer.parseInt(txtTimeMillis.getText().toString());
+                int interval = Integer.parseInt(txtInterval.getText().toString());
                 initDynaTime();
                 startDynaTime(timeInMillis, interval);
+                showMessage("DynaTime Start");
+
             }
         });
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pauseTime();
+                showMessage("DynaTime Pause");
             }
         });
         btnResume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 resumeTime();
+                showMessage("DynaTime Resume");
             }
         });
         btnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 stopTime();
+                showMessage("DynaTime Stop");
             }
         });
 

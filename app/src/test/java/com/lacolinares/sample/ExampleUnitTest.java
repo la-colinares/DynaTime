@@ -1,4 +1,4 @@
-package com.lacolinares.dynatime;
+package com.lacolinares.sample;
 
 import org.junit.Test;
 
